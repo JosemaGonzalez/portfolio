@@ -40,6 +40,9 @@ $(document).ready(function() {
     }
     /*Tablet*/
     if ($(window).width() >= "768") {
+        $("#sobremi .drcha img").css("width", "17%");
+        $(".drcha .sobredrcha,.drcha .sobreizda").css("margin-top", "0px");
+
         $("#sobremi .izda,#sobremi .drcha").height(ventana_alto/2.8);
         $(".sobreizda,.sobredrcha").css("max-height", ventana_alto2/3.2);
         $(".sobreizda,.sobredrcha").css("min-height", ventana_alto2/3.2);
